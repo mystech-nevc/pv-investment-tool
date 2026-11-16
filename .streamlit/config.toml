@@ -1,0 +1,15 @@
+# 光效智算 V1.0 运行配置
+[browser]
+# 关闭首次运行的使用数据统计询问，避免每次安装后弹邮箱提示
+gatherUsageStats = false
+
+[server]
+port = 8501
+headless = false
+
+[theme]
+primaryColor = "#2E8B57"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F7F4"
+textColor = "#1F2A24"
+font = "sans serif"
