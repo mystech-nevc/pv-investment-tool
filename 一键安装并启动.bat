@@ -32,7 +32,7 @@ if not errorlevel 1 goto RUN
 
 echo [2/4] Installing dependencies, first run 2-5 minutes ...
 echo       Please keep this window open.
-".venv\Scripts\python.exe" -m pip install --upgrade pip -i https://pypi.mirrors.ustc.edu.cn/simple
+".venv\Scripts\python.exe" -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 ".venv\Scripts\python.exe" -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 if errorlevel 1 goto PIP_FAIL
 ".venv\Scripts\python.exe" -c "import streamlit" >nul 2>nul
