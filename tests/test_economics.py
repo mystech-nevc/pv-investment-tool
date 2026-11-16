@@ -134,7 +134,7 @@ def test_indicators_reasonable():
 def test_npv_irr_consistency():
     """按 IRR 折现时 NPV 应约为 0"""
     r = economics.evaluate(base_params())
-    assert abs(economics.npv(r["irr"], r["cash_flows"]) < 1.0
+    assert abs(economics.npv(r["irr"], r["cash_flows"])) < 1.0
 
 
 def test_unit_invest():
